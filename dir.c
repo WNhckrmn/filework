@@ -136,18 +136,7 @@ int main()
             // free(event1);
             // free(event2);
             int el = BM_search(arr, key);
-            // if(el != -1)
-            // {
-            //     int i = el;
-            //     while((key[i]!=' ')||(key[i]!='\0'))
-            //     {
-            //         printf("%s",&key[i]);
-            //         i++;
-            //     }
-            //     printf("\n");
-                
-                
-            // }
+            
             if(el!=-1)
             {
                 printf("this is word:%s , path :/home/whitenigga/univer/forlab/%s\n",arr,entry->d_name);
